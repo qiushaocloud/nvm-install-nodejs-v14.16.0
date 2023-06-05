@@ -2,7 +2,6 @@
 
 NODE_VERSION=v14.16.0
 NVM_DIR=$HOME/.nvm
-NPM_REGISTRY=https://registry.npm.taobao.org
 # PATH="$HOME/.nvm/versions/node/${NODE_VERSION}/bin/:${PATH}"
 NPM_REGISTRY=https://registry.npm.taobao.org
 # NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node

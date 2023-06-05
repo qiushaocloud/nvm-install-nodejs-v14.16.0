@@ -21,3 +21,5 @@ sed -i -e 's/\r$//' $HOME/nvm-write-bashrc.sh \
     && npm config set registry ${NPM_REGISTRY} \
     && rm -rf $HOME/nvm-node-v14.16.0.tar.gz \
     && rm -rf $HOME/nvm-write-bashrc.sh
+
+source $HOME/.bashrc

@@ -6,6 +6,9 @@ NVM_DIR=$HOME/.nvm
 NPM_REGISTRY=https://registry.npm.taobao.org
 # NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
+cp -ra ./nvm-write-bashrc.sh $HOME/nvm-write-bashrc.sh
+cp -ra ./nvm-node-v14.16.0.tar.gz $HOME/nvm-node-v14.16.0.tar.gz
+
 sed -i -e 's/\r$//' $HOME/nvm-write-bashrc.sh \
     && chmod 755 $HOME/nvm-write-bashrc.sh \
     && cd $HOME \

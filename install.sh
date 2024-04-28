@@ -13,7 +13,7 @@ sed -i -e 's/\r$//' $HOME/nvm-write-bashrc.sh \
     && chmod 755 $HOME/nvm-write-bashrc.sh \
     && cd $HOME \
     && tar -zxvf $HOME/nvm-node-v14.16.0.tar.gz \
-    && bash $HOME/nvm-write-bashrc.sh \
+    && sh $HOME/nvm-write-bashrc.sh \
     && . "$NVM_DIR/nvm.sh" \
     && nvm install ${NODE_VERSION} \
     && nvm use ${NODE_VERSION} \
